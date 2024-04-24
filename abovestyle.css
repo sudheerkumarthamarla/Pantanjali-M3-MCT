@@ -1,4 +1,4 @@
-@import url(styles.css);
+@import url(colors.css);
 /* header wala part */
 .header-1{  
     width: 100%;
@@ -14,8 +14,9 @@
 header{
     position:sticky;
     width: 100%;
-    /* top: 0; */
-    /* z-index: 10; */
+     top: 0; 
+     z-index: 10; 
+     background: white;
 }
 .header-1 img{
     margin-left: 200px;
@@ -307,7 +308,7 @@ gap: 10px;
 }
 .stars{
     color: var(--patanjali-color);
-    font-size: 14px;
+    font-size: 13px;
 }
 .grams p{
     font-weight:350;
@@ -329,7 +330,7 @@ gap: 10px;
     font-size: 10px;
 }
 .eyes span{
-    font-size: 19px;
+    font-size: 17px;
 }
 .buy{
     width: 130px;
@@ -337,7 +338,7 @@ gap: 10px;
     background-color: var(--patanjali-color);
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 13.5px;
     cursor: pointer;
 }
 
