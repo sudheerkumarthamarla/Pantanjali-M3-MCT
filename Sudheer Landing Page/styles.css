@@ -569,6 +569,7 @@ body{
       border-radius: 50%!important; 
       padding: 8px;
   } 
+
  .banners{
     margin-top: 8vh;
     display: flex;
@@ -580,7 +581,7 @@ body{
     display: none;
 }
  .latestnews{
-    height: 9vh;
+    /* height: 9vh; */
     width: 100vw;
     background-color: #FF1616;
     display: flex;
@@ -631,6 +632,8 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    gap: 20px;
+
  }
  .category .heading{
     display: flex;
@@ -638,6 +641,7 @@ body{
     align-items: center;
     gap: 10px;
     color: #1F703C;
+    margin-top: 20px;
  }
  .category .buttons{
     display: flex;
@@ -661,6 +665,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    gap: 30px;
  }
  .owl-item { 
     display: flex;
@@ -909,6 +915,7 @@ strong {
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    gap: 30px;
 }
 .bottombanner{
     margin-top: 10vh;    
@@ -924,6 +931,5 @@ strong {
 }
 .shopbycategory hr ,.topdeals hr, .newarrivals hr{
     width: 50px;
-    margin-top: -15px;
     border-top: 2px solid #F7941D;
 }
