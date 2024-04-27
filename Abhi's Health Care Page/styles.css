@@ -109,7 +109,13 @@ body{
     justify-content: space-between;
     font-weight: 500;
     font-size: 16px;
-    
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+.pages a li{
+    list-style-type: none;
 }
 .header-2 .pages li{
     transition: 0.5s;
@@ -258,6 +264,7 @@ body{
     height: 2rem;
     font-weight: 420;
     color: var(--text-color);
+    cursor: pointer;
 }
 .div_2{
     /* margin: 10px; */
@@ -278,6 +285,7 @@ body{
     align-items: center;
     gap: 8px;
     color:var(--text-color);
+    cursor: pointer;
 }
 
     input[type="checkbox"] {
@@ -295,10 +303,10 @@ body{
     grid-template-rows:repeat(5,1fr);
     grid-gap: 4px;
 }
-
 #moon{
     color: var(--patanjali-color);
 }
+/* right wala part */
 .right{
 width: calc(100vw-);
 display: flex;
@@ -310,7 +318,6 @@ margin-top: 20px;
     font-size: 42px;
     font-weight: 480;
     color: var(--patanjali-color);
-    margin: 0%;
 }
 .products{
     height: auto;
