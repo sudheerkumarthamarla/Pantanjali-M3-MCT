@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutraceutical</title>
+    <link rel="stylesheet" href="Nutraceutical.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jost.css">
+</head>
+<body>
+    <header>
+        <section class="header-1">
+            <div>
+                <img src="logo.svg" alt="patanjali_logo">
+            </div>
+            <div class="search">
+                <input class="text-box" type="text" placeholder="Search Products Here.....">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </div>
+            <div class="symbols">
+                <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+                <span class="material-symbols-outlined">
+                    shopping_bag
+                    </span>
+            </div>
+        </section>
+        <section class="header-2">
+            <div class="search-2">
+                <div class="js">
+                    <header class="">
+                        <div class="header-inner">
+                            <div class="container">
+                                <div class="cat-nav-head">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3 col-md-3 col-6">
+                                            <div class="dropdowns">
+                                                <div id="overlay"></div>
+                                                <button class="button" id="menu">
+                                                    <span class="material-symbols-outlined">
+                                                        menu
+                                                        </span>
+                                                    <div>All Categories</div></button>
+                                    
+                                    <!-- <div id="side-menu-icon">
+                                      <div id="menu"><span></span><strong>All Categories</strong></div>
+                                    </div> -->
+                                   
+                                    <div id="side-menu">
+                                        <h5><img src="category.webp" alt="all categories">All Categories</h5>
+                                            <div class="shop-sidebar-slide">
+                                              <div class="single-widget category">
+                                                 <nav class="nav" role="navigation">
+                                                    <ul class="nav__list">
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10000" type="checkbox" hidden="">
+                                                             <label for="group-10000"><span class="fa fa-angle-right"></span> 
+                                                                Natural Health Care                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/digestives/138">Digestives</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/health-and-wellness/139">Health and Wellness</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/chyawanprash/150">Chyawanprash</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/badam-pak/151">Badam Pak</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/ghee/152">Ghee</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/honey/153">Honey</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/health-drinks/177">Health Drinks</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/fruit-beverage/184">Fruit Beverage</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/diet-food/218">Diet Food</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10001" type="checkbox" hidden="">
+                                                             <label for="group-10001"><span class="fa fa-angle-right"></span> 
+                                                                Natural Food Products                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/biscuits-and-cookies/3">Biscuits and Cookies</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/spices/11">Spices</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/candy/12">Candy</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/tea/13">Tea</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/jam/14">Jam</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/murabba/15">Murabba</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/dalia-poha-and-vermicelli/130">Dalia, Poha  and Vermicelli</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/flours/131">Flours </a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/sauces-and-pickles/132">Sauces and Pickles</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/corn-flakes/183">Corn Flakes</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/dal-pulses/185">Dal Pulses</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/rice/186">Rice</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/noodles/190">Noodles</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/oats/191">Oats</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/papad/192">Papad</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/namkeen/193">Namkeen</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/edible-oil/217">Edible Oil</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/sweets/222">Sweets</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/salt/230">Salt</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/sugar/231">Sugar</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/dried-fruits-nuts/234">Dried Fruits &amp; Nuts</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/breakfast-cereals/243">Breakfast Cereals</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/herbal-tea/257">Herbal Tea</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10002" type="checkbox" hidden="">
+                                                             <label for="group-10002"><span class="fa fa-angle-right"></span> 
+                                                                Ayurvedic Medicine                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/kwath/5">Kwath</a></li>
+                                                                                                                   <input id="sub-group-h10" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h10"><span class="fa fa-angle-right"></span> Packages for Diseases</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/multiple-sclerosis/101">Multiple Sclerosis</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/ulcerative-colitis/102">Ulcerative Colitis</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/muscular-distrophy-and-handicapped-childeren/103">Muscular Distrophy and Handicapped Childeren</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/obesity/104">Obesity</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/oligospermia-and-other-genital-diseases/105">Oligospermia and Other Genital Diseases</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/osteoporosis-asthi-susirata/106">Osteoporosis (Asthi-Susirata)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/otorrhagia-tympanitis-and-deafness/107">Otorrhagia, Tympanitis and Deafness</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/infertility-bandhyatva/108">Infertility (Bandhyatva)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/package-for-joint-pain-gout-knee-pain-etc/109">Package for Joint Pain, Gout, Knee Pain etc</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/leucoderma-shwet-kustha/110">Leucoderma (Shwet Kustha)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/hepatitis-a-b-c-yakrit-sotha/111">Hepatitis A, B, C (Yakrit-Sotha)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/menorrhagia-heavy-menstruation-and-amenorrhoeal/112">Menorrhagia (Heavy Menstruation) and Amenorrhoea(L</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/parkinsonismkampa-vat/113">Parkinsonism(Kampa-Vat)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/chronic-renal-failure/114">Chronic Renal Failure</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/coronary-artery-disease/115">Coronary Artery Disease</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/diabetes-mellitus-madhumeha/116">Diabetes Mellitus (Madhumeha)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/fibroid-uterusgarbhasayarbuda/117">Fibroid Uterus(Garbhasayarbuda)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/amatoxic-byproduct-sprue-syndrome-and-diarrhea/118">AMA(Toxic Byproduct), Sprue Syndrome and Diarrhea</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/cataract-and-glaucoma/119">Cataract and Glaucoma</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/cirrhosis-of-liver/120">Cirrhosis of Liver</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/adenitis-of-big-size/121">Adenitis of Big Size</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/hernia-antra-vriddhi/122">Hernia (Antra-Vriddhi)</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/skin-problems/123">Skin Problems</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/stomach-problems/124">Stomach Problems</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/for-cancer/125">For Cancer</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/mental-disorder-and-migraine/126">Mental Disorder and Migraine</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/vati/16">Vati</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/bhasma/17">Bhasma</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/churna/18">Churna</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/guggul/19">Guggul</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/parpati-ras/134">Parpati / Ras</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/pishti/135">Pishti</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/arishta/178">Arishta</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/asava/179">Asava</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/syrup/181">Syrup</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/godhan-ark/199">Godhan Ark</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/oil/208">Oil</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/lep/210">Lep</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/balm-inhaler/211">Balm &amp; Inhaler</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/eye-ear-oral-care/248">Eye, Ear &amp; Oral Care</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10003" type="checkbox" hidden="">
+                                                             <label for="group-10003"><span class="fa fa-angle-right"></span> 
+                                                                Herbal Home Care                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/agarbatti-and-dhoops/7">Agarbatti and Dhoops</a></li>
+                                                                                                                   <input id="sub-group-h26" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h26"><span class="fa fa-angle-right"></span> Toiletries</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/detergent-powder/33">Detergent Powder</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/detergent-cake/34">Detergent Cake</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/hand-wash-and-sanitizer/35">Hand Wash and Sanitizer</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/hawan-samagri/200">Hawan Samagri</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/pooja-essentials/220"> Pooja Essentials</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/dishwash-bar-and-gel/221">Dishwash Bar and Gel</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10004" type="checkbox" hidden="">
+                                                             <label for="group-10004"><span class="fa fa-angle-right"></span> 
+                                                                Natural Personal Care                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      <input id="sub-group-h20" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h20"><span class="fa fa-angle-right"></span> Skin Care</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/face-wash/141">Face Wash</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/face-cream/142">Face Cream</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/face-pack/143">Face Pack</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/foot-cream/144">Foot Cream</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/shave-gel/145">Shave Gel</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/scrubs/146">Scrubs</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   <input id="sub-group-h21" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h21"><span class="fa fa-angle-right"></span> Dental Care</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/toothpaste/22">Toothpaste</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/tooth-brush/23">Tooth Brush</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/tooth-powder-manjan/147">Tooth Powder (Manjan)</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   <input id="sub-group-h24" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h24"><span class="fa fa-angle-right"></span> Hair Care</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/shampoo/31">Shampoo</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/hair-oil/32">Hair Oil</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/conditioner/148">Conditioner</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/hair-gel/219">Hair Gel</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   </li><li><a href="https://www.patanjaliayurved.net/category/body-care/25">Body Care</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/eye-care/137">Eye Care</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/shishu-care/207">Shishu Care</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10005" type="checkbox" hidden="">
+                                                             <label for="group-10005"><span class="fa fa-angle-right"></span> 
+                                                                Patanjali Publication                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      <input id="sub-group-h30" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h30"><span class="fa fa-angle-right"></span> Books</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/ayurveda-book/93">Ayurveda - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/biography-book/94">Biography - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/naturopathy-book/96">Naturopathy - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/pranayam-book/97">Pranayam - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/vedic-chants-book/98">Vedic Chants - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/yoga-books/99">Yoga - Books</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/lifestyle-management-book/100">Lifestyle Management - Book</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/biography/188">Biography</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                   <input id="sub-group-h216" type="checkbox" hidden="">
+                                                                   <label for="sub-group-h216"><span class="fa fa-angle-right"></span> Media</label>
+                                                                   <ul class="sub-group-list">
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/mp3/27">MP3</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/vcds/28">VCDs</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/dvds/29">DVDs</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/audio-cds/154">Audio CDs</a></li>
+                                                                                                                        <li><a href="https://www.patanjaliayurved.net/category/audio-cassette/155">Audio Cassette</a></li>
+                                                                   
+                
+                                                                   </ul>
+                
+                                                                                                                  </li>
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10006" type="checkbox" hidden="">
+                                                             <label for="group-10006"><span class="fa fa-angle-right"></span> 
+                                                                Nutraceuticals                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/nutrition/233">Nutrition</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/nutrition-bar/235">Nutrition Bar</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10007" type="checkbox" hidden="">
+                                                             <label for="group-10007"><span class="fa fa-angle-right"></span> 
+                                                                Paridhan                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/spiritual/237">Spiritual</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/home/239">Home</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/accessories/240">Accessories</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/sports-wear/241">Sports Wear</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/women-ethnic/242">Women Ethnic</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/footwear/258">Footwear</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10008" type="checkbox" hidden="">
+                                                             <label for="group-10008"><span class="fa fa-angle-right"></span> 
+                                                                Copperware                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/copperware/245">Copperware</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10009" type="checkbox" hidden="">
+                                                             <label for="group-10009"><span class="fa fa-angle-right"></span> 
+                                                                Dairy &amp; Frozen Items                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/dairy-frozen-items/247">Dairy &amp; Frozen Items</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10010" type="checkbox" hidden="">
+                                                             <label for="group-10010"><span class="fa fa-angle-right"></span> 
+                                                                Stationery                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/notebook/256">Notebook</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                              
+                                                       
+                                                          <li>
+                                                             <input id="group-10011" type="checkbox" hidden="">
+                                                             <label for="group-10011"><span class="fa fa-angle-right"></span> 
+                                                                Organic Agri Products                                             </label>
+                                                                <ul class="group-list">
+                                                                  <li>
+                                                                                                                      </li><li><a href="https://www.patanjaliayurved.net/category/bio-fertilizers/251">Bio Fertilizers</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/bio-pesticides/252">Bio Pesticides</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/plant-growth-promoters/253">Plant Growth Promoters</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/soil-testing/254">Soil Testing</a></li>
+                                                                                                                   <li><a href="https://www.patanjaliayurved.net/category/seeds/255">Seeds</a></li>
+                                                                                                                  
+                                                             </ul>
+                                                          </li>
+                                                         
+                                                                                               <li class="pnb-card-mneu"><a href="https://www.patanjaliayurved.net/pnb" target="_blank">Credit Card</a></li>
+                                                        <li class="pnb-card-mneu"><a href="https://www.patanjaliayurved.net/category/swadeshi-samridhi-card/224" target="_blank">Swadeshi Samridhi Card</a></li>
+                                                
+                                                    </ul>
+                                                   
+                                                 </nav>
+                                              </div>
+                                            </div>
+                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                <script>
+                   var menu = document.querySelector( "#menu" );
+                   var sidebar = document.querySelector( "#side-menu" );
+                   var overlay = document.querySelector( "#overlay" );
+                   
+                   menu.addEventListener( "click", function(){
+                   this.classList.toggle( "active" );
+                   sidebar.classList.toggle( "active" );
+                   overlay.classList.toggle( "active" );
+                   overlay.onclick = function () {
+                     menu.classList.toggle( "active" );
+                     sidebar.classList.toggle( "active" );
+                     overlay.classList.toggle( "active" );
+                   }});
+                </script>
+                </div>
+                <span class="material-symbols-outlined span1">
+                    search
+                    </span>
+            </div>
+            <div>
+                <ul class="pages">
+                    <li>Ayurvedic Medicine</li>
+                    <li>Foods</li>
+                    <li>Nutraceuticals</li>
+                    <li>Personal Care</li>
+                    <li>Health Care</li>
+                    <li>Paridhan</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <section class="Nutraceuticals-container">
+        <div class="img-head">
+            <img src="Nutraceutical-head.png" alt="n-head">
+        </div>
+          <div class="Nutraceuticals-arrow">
+            <span class="Home-span">Home</span>
+            <i class="fa-solid fa-arrow-right"></i>
+            <span class="Nutraceuticals-span">Paridhan</span>
+          </div>
+          <div class="Nutraceuticals-Container-main">
+          <div class="Nutraceuticals-Container-body">
+            <div class="left">
+                <div class="div_1">
+                        <h1>All Categories</h1>
+                    <div class="lists">
+                        <ul>
+                            <li>Natural Health care<span class="material-symbols-outlined">
+                                chevron_right
+                                </span>
+                            </li>
+                            <li>Natural Food Care<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Ayurvedic Medicine<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Herbal Home Care<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Natural Personal Care<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Patanjali Publication<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Samridhi Card<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Nutraceuticals<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Paridhan<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Copperware<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Dairy & Frozen Items<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Stationery<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                            <li>Organic Agri Products<span class="material-symbols-outlined">
+                                chevron_right
+                                </span></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="div_2">
+                    <h1>Shop By Price</h1>
+                    <div class="lists_2">
+                         <ul>
+                            <li><input type="checkbox">₹0 To ₹50</li>
+                            <li><input type="checkbox">₹51 To ₹100</li>
+                            <li><input type="checkbox">₹101 To ₹300</li>
+                            <li><input type="checkbox">₹301 To ₹500</li>
+                            <li><input type="checkbox">Above ₹500</li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="div_2">
+                    <h1>Discount</h1>
+                    <div class="lists_2">
+                         <ul>
+                            <li><input type="checkbox">5% Discount</li>
+                            <li><input type="checkbox">10% Discount</li>
+                            <li><input type="checkbox">20% Discount</li>
+                            <li><input type="checkbox">30% Discount</li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="div_2">
+                    <h1>Customer Rating</h1>
+                    <div class="lists_2">
+                         <ul>
+                            <li><input type="checkbox">5
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                            </li>
+                            <li><input type="checkbox">4
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>                                    
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                            </li>
+                            <li><input type="checkbox">3
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                            </li>
+                            <li><input type="checkbox">2
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                            </li>
+                            <li><input type="checkbox">1
+                                <i  id="moon" class="fa-sharp fa-solid fa-star"></i>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Nutraceuticals">
+                <h1>Nutraceuticals</h1>
+                <div class="Nutraceuticals-items">
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n1.jpg" alt="n1">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Daily Energy -
+                        Organic B Complex Capsules (pack of 3)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹810</span>
+                        <span class="mrp-span">M.R.P.:₹900</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">600g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n1.jpg" alt="n1">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Bone Health - Natural
+                        Calcium Supplement (pack of 3)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹675</span>
+                        <span class="mrp-span">M.R.P.:₹750</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">600g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n2.jpg" alt="n2">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Vitamin D-2K Natural - 60 Chewable Tablets for Men & Women - Vanilla Flavor (pack of 3)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹675</span>
+                        <span class="mrp-span">M.R.P.:₹750</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">40g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n3.png" alt="n3">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Diabetic Care</p>
+                    <div class="item-price">
+                        <span class="price-span">₹558</span>
+                        <span class="mrp-span">M.R.P.:₹620</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n4.png" alt="n4">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Collagenprash Skin Superfood</p>
+                    <div class="item-price">
+                        <span class="price-span">₹558</span>
+                        <span class="mrp-span">M.R.P.:₹620</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n1.jpg" alt="n1">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Pat.Nut.Weigth Gain CHOC. FLV</p>
+                    <div class="item-price">
+                        <span class="price-span">₹540</span>
+                        <span class="mrp-span">M.R.P.:₹600</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">500g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n5.jpg" alt="n5">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Weight Gain</p>
+                    <div class="item-price">
+                        <span class="price-span">₹540</span>
+                        <span class="mrp-span">M.R.P.:₹600</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">500g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n1.jpg" alt="n1">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Org Omega 3,6,7,9</p>
+                    <div class="item-price">
+                        <span class="price-span">₹445</span>
+                        <span class="mrp-span">M.R.P.:₹500</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">45g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n6.jpg" alt="n6">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Women's Superfood</p>
+                    <div class="item-price">
+                        <span class="price-span">₹495</span>
+                        <span class="mrp-span">M.R.P.:₹600</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n7.jpg" alt="n7">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Men's Superfood</p>
+                    <div class="item-price">
+                        <span class="price-span">₹463</span>
+                        <span class="mrp-span">M.R.P.:₹515</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n8.png" alt="n8">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Pat Nutrela Mothers Plus Powder</p>
+                    <div class="item-price">
+                        <span class="price-span">₹450</span>
+                        <span class="mrp-span">M.R.P.:₹515</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                  
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n9.jpg" alt="n9">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Kid's Superfood</p>
+                    <div class="item-price">
+                        <span class="price-span">₹449</span>
+                        <span class="mrp-span">M.R.P.:₹499</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n10.jpg" alt="n10">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Bone Health - Natural Calcium Supplement (pack of 2)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹450</span>
+                        <span class="mrp-span">M.R.P.:₹500</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">400g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n11.jpg" alt="n11">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Vitamin D-2K Natural - 60 Chewable
+                        Tablets for Men & Women - Vanilla Flavor (pack of 2)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹450</span>
+                        <span class="mrp-span">M.R.P.:₹500</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">35g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n12.png" alt="n12">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Sports Isoveda (Choc-irish)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹4050</span>
+                        <span class="mrp-span">M.R.P.:₹4450</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">1kg</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n13.png" alt="n13">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Sports Isoveda (Frevan-ice)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹4050</span>
+                        <span class="mrp-span">M.R.P.:₹4450</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">1kg</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n14.png" alt="n14">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Sports Isoveda (MALAI-KULFI)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹4050</span>
+                        <span class="mrp-span">M.R.P.:₹4450</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">1kg</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n15.jpg" alt="n15">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Daily Active Capsule</p>
+                    <div class="item-price">
+                        <span class="price-span">₹300</span>
+                        <span class="mrp-span">M.R.P.:₹450</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">36g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                     
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n16.png" alt="n16">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Sports Whey Performance (Choc-irish)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹3250</span>
+                        <span class="mrp-span">M.R.P.:₹3600</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">1kg</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n17.png" alt="n17">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Sports Whey Performance (MALAI-KULFI)</p>
+                    <div class="item-price">
+                        <span class="price-span">₹3149</span>
+                        <span class="mrp-span">M.R.P.:₹3490</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">1kg</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="Nutraceuticals-item">
+                    <div class="item-upper-part">
+                        <div class="left-part">
+                            <i class="fa-solid fa-star"></i>
+                            <span>0 (0)</span>
+                        </div>
+                        <div class="right-part">
+                            <button class="off-btn">10% OFF</button>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="n18.jpg" alt="n18">
+                    </div>
+                    <div class="item-lower-part">
+                    <p class="about-item">Patanjali Nutrela Daily Energy Capsule</p>
+                    <div class="item-price">
+                        <span class="price-span">₹300</span>
+                        <span class="mrp-span">M.R.P.:₹449</span>
+                    </div>
+                    <div class="quantity-rating">
+                        <span class="quantity">23g</span>
+                        <div class="rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                     
+                    <div class="btn-part">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="buy-btn">
+                            <span>Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+          </div>
+    </section>
+    <section class="shopbycategory">
+        <div>
+            <h1>Shop By Category</h1>
+            <hr>
+        </div>
+        
+        <div class="owl-item">
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product1.png" alt="category1">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Natural Personal Care</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product2.png" alt="category2">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Patanjali Publication</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product3.png" alt="category3">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Samridhi Card</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product4.png" alt="category4">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Nutraceuticals</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product5.png" alt="category5">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Paridhan</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product6.png" alt="category6">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Copperware</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product7.png" alt="category7">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Stationery</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product8.png" alt="category8">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Natural Health Care</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product9.png" alt="category9">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Herbal Home Care</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-product">
+                <div class="product-img">
+                    <div class="innerItem">
+                        <img src="itemBackround.jpg">
+                        <div class="productImge">
+                            <img src="product10.png" alt="category10">
+                        </div>
+                        <div class="carouselCaption">
+                            <h2>Ayurvedic Medicine</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </section>
+    <footer class="pageFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 info-footer col-md-6 col-12">
+                    <h3>INFORMATION</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Cancellation Policy</li>
+                        <li>General Terms &amp; Conditions</li>
+                        <li>Grievance Redressal Policy</li>
+                        <li>Return/Refund Policy</li>
+                        <li>Shipping Policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <ul>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                        <li>Caution Notice</li>
+                        <li>Faq</li>
+                        <li>Privacy Policy</li>
+                        <li>Site Map</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <ul>
+                        <li class="socialSec">
+                            <h3>Subscribe Our Newsletter</h3>
+                            <div class="subscribeBox">
+                                <input type="email" name="email" placeholder="Enter your email id">
+                                <button type="submit" class="sendButton"> <img src="send.png" alt="send"></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Follow on Social Media</h3>
+                    <ul class="socialMediaIcon">
+                        <li>
+                            <a href="https://www.facebook.com/PatanjaliAyurved.net" target="_blank" title="facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/patanjaliproducts/" target="_blank" title="instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/patanjaliayurveda" target="_blank" title="youtube">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://in.pinterest.com/patanjaliutpad/" target="_blank" title="pinterest">
+                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/PypAyurved" target="_blank" title="twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 ftr-contact">
+                    <h3>CONTACT US</h3>
+                    <ul class="contactList">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Patanjali Ayurved Limited, <br>Haridwar, Uttarakhand - 249405
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span> 1860-1800-180 &amp; 01334-610111
+                        </li>
+                        <li>
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span> Timing: Mon to Sat 6 am to 8 pm
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> customercare@orderme.co.in </a>
+                        </li>
+                    </ul>
+                    <h3>Download the Apps</h3>
+                    <div class="appStore">
+                        <a href="https://apps.apple.com/in/app/patanjali-order-me/id1534170353" target="_blank"><img src="https://www.patanjaliayurved.net/media/images/apple-store.png" alt="download app" data-pagespeed-url-hash="1221697382"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.bharuwa.orderme&amp;hl=en_IN&amp;gl=US" target="_blank"><img src="https://www.patanjaliayurved.net/media/images/google-play.png" alt="download app" data-pagespeed-url-hash="3325135308"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p>© 2024 Patanjali Ayurved Limited All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
