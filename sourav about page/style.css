@@ -1,0 +1,634 @@
+.header-1{  
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.2);
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+.header-1 img{
+    margin-left: 50px;
+    width: 10rem;
+}
+.header-1 img:hover{
+    cursor: pointer;
+}
+.search{
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    border-color: #F7E6CE;
+}
+.search .text-box{
+    width: 85%;
+    height: 45px;
+    padding-left: 30px;
+    border-color: #F7E6CE;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.search span{
+    width: 45px;
+    height: 46px;
+    background-color: #186C38;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.search span:hover{
+    cursor: pointer;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.symbols{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 50px;
+}
+.symbols span{
+    transition: 0.5s;
+}
+.symbols span:hover{
+    cursor: pointer;
+    color:#F89F35;
+}
+.header-2{
+    display: flex;
+    flex-direction: row;
+    width: 100dvw;
+    position: fixed;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #186C38;
+    color: white;
+}
+.header-2 .button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 14rem;
+    height: 7vh;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.header-2 .button:hover{
+    cursor: pointer;
+}
+.header-2 .pages{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.header-2 .pages li{
+    transition: 0.5s;
+}
+.header-2 .pages li:hover{
+    color: #F89F35;
+    cursor: pointer;
+
+}
+.header-2 .pages  li{
+    padding: 10px;
+}
+.header-2 .search-2 .span1{
+    display: none;
+}
+@media screen and (max-width: 790px) {
+    .search{
+        display: none;
+    }
+    .header-1{
+        padding: 0;
+    }
+    .header-1 img{
+        margin-left: 0;
+    }
+    .symbols{
+        margin-right: 0;
+        gap: 0;
+    }
+    .header-2 .button{
+        background-color: transparent;
+        color: white;
+    }
+    .header-2 .pages{
+        display: none;
+    }
+    .header-2 .search-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+    }
+    .header-2 .search-2 .span1{
+        display: block;
+    }
+    
+}
+
+@font-face { 
+    font-family:'FontAwesome';
+    src:url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src:url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://www.patanjaliayurved.net/media/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+  } 
+  @import url('https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); 
+    body {  
+      font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size:1rem;
+      font-weight:400;
+      line-height:1.5;
+      color:#212529;
+      text-align:left;
+      background:#fff;
+      list-style:none;
+    }  
+  body { 
+      margin: 0; 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+      font-size: 1rem; 
+      font-weight: 400; 
+      line-height: 1.5; 
+      color: #212529; 
+      text-align: left; 
+      background-color: #fff;
+  } 
+  
+  body { 
+      height: 100%; 
+      margin: 0;
+  } 
+ 
+  body { 
+      color: #424646; 
+      font-weight: 400; 
+      font-size: 16px; 
+      line-height: 27px;
+  } 
+  
+  body { 
+      background: #fff;
+  } 
+  
+  body { 
+      font-family: "Open Sans", sans-serif; 
+      color: black
+  } 
+  
+  footer { 
+      display: block;
+      margin-top: 30vh;
+  } 
+  
+  .pageFooter { 
+      padding: 20px 0px 0px 0px; 
+      box-sizing: border-box; 
+      background: #91c49b;
+      width: 100vw;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box;
+  } 
+  
+  *,:before,:after { 
+      box-sizing: inherit;
+  } 
+  
+  .container { 
+      width: 100%; 
+      padding-right: 15px; 
+      padding-left: 15px; 
+      margin-right: auto; 
+      margin-left: auto;
+  } 
+  
+  @media (min-width: 576px){ 
+    .container { 
+      max-width: 540px;
+    } 
+  }     
+  
+  @media (min-width: 768px){ 
+    .container { 
+      max-width: 720px;
+    } 
+  }     
+  
+  @media (min-width: 992px){ 
+    .container { 
+      max-width: 960px;
+    } 
+  }     
+  
+  @media (min-width: 1200px){ 
+    .container { 
+      max-width: 1200px;
+    } 
+  }     
+  
+  .container { 
+      max-width: 1200px;
+  } 
+  
+  .copyRight { 
+      background: #111111; 
+      padding: 5px 10px; 
+      text-align: center; 
+      color: #fff;
+  } 
+  
+  .row { 
+      display: flex; 
+      flex-wrap: wrap; 
+      margin-right: -15px; 
+      margin-left: -15px;
+  } 
+
+  
+  p { 
+      margin: 0; 
+      padding: 0; 
+      list-style: none; 
+      font-weight: normal; 
+      font-family: 'Jost';
+  } 
+  
+  p { 
+      font-family: 'Jost'!important;
+  } 
+  
+  .copyRight p  { 
+      color: #fff; 
+      margin-bottom: 0px!important; 
+      font-size: 14px;
+  } 
+  
+  .col-12,.col-lg-3,.col-md-6 { 
+      position: relative; 
+      width: 100%; 
+      min-height: 1px; 
+      padding-right: 15px; 
+      padding-left: 15px;
+  } 
+  
+  .col-12 { 
+      -ms-flex: 0 0 100%; 
+      flex: 0 0 100%; 
+      max-width: 100%;
+  } 
+  
+  @media (min-width: 768px){ 
+    .col-md-6 { 
+      -ms-flex: 0 0 50%; 
+      flex: 0 0 50%; 
+      max-width: 50%;
+    } 
+  }     
+  
+  @media (min-width: 992px){ 
+    .col-lg-3 { 
+      -ms-flex: 0 0 25%; 
+      flex: 0 0 25%; 
+      max-width: 25%;
+    } 
+  }     
+  
+  .col-12,.col-lg-2,.col-md-6 { 
+      position: relative; 
+      width: 100%; 
+      min-height: 1px; 
+      padding-right: 15px; 
+      padding-left: 15px;
+  } 
+  
+  @media (min-width: 992px){ 
+    .col-lg-2 { 
+      -ms-flex: 0 0 16.666667%; 
+      flex: 0 0 16.666667%; 
+      max-width: 16.666667%;
+    } 
+  }     
+  
+  .pageFooter .col-lg-2  { 
+      padding-top: 52px;
+  } 
+  
+  .col-12,.col-lg-4,.col-md-6 { 
+      position: relative; 
+      width: 100%; 
+      min-height: 1px; 
+      padding-right: 15px; 
+      padding-left: 15px;
+  } 
+  
+  @media (min-width: 992px){ 
+    .col-lg-4 { 
+      -ms-flex: 0 0 33.333333%; 
+      flex: 0 0 33.333333%; 
+      max-width: 33.333333%;
+    } 
+  }     
+  
+  h3 { 
+      margin-bottom: .5rem; 
+      font-family: inherit; 
+      font-weight: 500; 
+      line-height: 1.2; 
+      color: inherit;
+  } 
+  
+ 
+  .pageFooter h3  { 
+      font-size: 16px; 
+      color: #171717; 
+      margin-bottom: 30px; 
+      font-weight: 600; 
+      position: relative;
+  } 
+  
+  .pageFooter h3::after { 
+      position: absolute; 
+      content: ""; 
+      top: 25px; 
+      right: 0; 
+      left: 0rem; 
+      width: 78%; 
+      border: 1px solid #171717; 
+      border-radius: 0px;
+  } 
+  
+  .pageFooter .info-footer h3::after { 
+      width: 78%;
+  } 
+  
+  ul { 
+      margin-top: 0; 
+      margin-bottom: 1rem;
+  } 
+  
+  ul { 
+      list-style: none; 
+      padding: 0; 
+      margin: 0;
+  } 
+  
+  ul { 
+      margin: 0; 
+      padding: 0; 
+      list-style: none; 
+      font-weight: normal; 
+      font-family: 'Jost';
+  } 
+  
+  .contactList { 
+      margin-bottom: 2rem;
+  } 
+  
+  .appStore { 
+      display: flex; 
+      align-items: center;
+  } 
+  
+  li { 
+      font-family: 'Jost'!important;
+  } 
+  
+  ul li  { 
+      list-style: none; 
+      padding: 0; 
+      margin: 0;
+  } 
+  
+  .pageFooter ul li  { 
+      margin-bottom: 5px;
+  } 
+  
+  .socialMediaIcon li  { 
+      display: inline-block;
+      color: black;
+  } 
+  
+  .socialMediaIcon li  { 
+      padding: 0px 10px;
+  } 
+  
+  .contactList li  { 
+      position: relative; 
+      padding-left: 30px; 
+      margin-bottom: 10px!important; 
+      color: #171717; 
+      font-size: 15px; 
+      line-height: 20px; 
+      font-weight: 400;
+  } 
+  
+  .subscribeBox { 
+      position: relative; 
+      margin-bottom: 3.5rem;
+  } 
+  
+
+  
+  img { 
+      vertical-align: middle; 
+      border-style: none;
+      max-width: 100%;
+  } 
+   
+  .appStore img  { 
+      width: 130px; 
+      height: auto;
+      height: 43px; 
+      margin-right: 5px; 
+      margin-bottom: 10px;
+  } 
+ 
+  i { 
+      font-style: italic;
+  } 
+  
+  .fa { 
+      display: inline-block; 
+      font: normal normal normal 14px/1 FontAwesome; 
+      font-size: inherit; 
+      text-rendering: auto; 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  .fa-facebook-f:before,.fa-facebook:before { 
+      content: "\f09a";
+      color: black;
+  } 
+  
+  .fa:before { 
+      font-family: 'FontAwesome'!important;
+  } 
+  
+  .fa-instagram:before { 
+      content: "\f16d";
+      color: black;
+  } 
+  
+  .fa-youtube-play:before { 
+      content: "\f16a";
+      color: black;
+  } 
+  
+  .fa-pinterest-p:before { 
+      content: "\f231";
+      color: black;
+  } 
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  .contactList li .fa  { 
+      position: absolute; 
+      left: 0px; 
+      top: 7px;
+  } 
+  
+  .fa-map-marker:before { 
+      content: "\f041";
+  } 
+  
+  .fa-phone:before { 
+      content: "\f095";
+  } 
+  
+  .fa-clock-o:before { 
+      content: "\f017";
+  } 
+
+  input[type="email"] { 
+      color: #666; 
+      width: 100%;
+      height: 50px;
+      border: 1px solid #7c6e6e; 
+      border-radius: 30px; 
+      padding: 8px;
+  } 
+
+  .sendbutton { 
+      color: #424646; 
+      font-weight: 400; 
+      font-size: 16px; 
+      line-height: 27px;
+      cursor: pointer;
+  } 
+
+  .sendbutton { 
+      border: 0px!important; 
+      border-radius: 3px!important; 
+      background: #186c38!important; 
+      color: #fff!important; 
+      line-height: 1;
+  } 
+  /* .fa-envelope-o:before { 
+    content: "\f003";
+}  */
+
+
+  .subscribeBox .sendButton  { 
+      position: absolute; 
+      right: 5px; 
+      width: 35px; 
+      top: 50%; 
+      transform: translateY(-50%); 
+      background: #186C37; 
+      border-radius: 50%!important; 
+      padding: 8px;
+  }
+
+ /* ------------------------------------------> */
+
+ *:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,ul li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+  
