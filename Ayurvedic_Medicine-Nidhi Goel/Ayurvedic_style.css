@@ -39,6 +39,10 @@ header{
     border-width: 1px;
     border-radius: 5px;
 }
+.header-2 .pages a{
+    text-decoration: none;
+    color: white;
+}
 .search span{
     width: 45px;
     height: 46px;
